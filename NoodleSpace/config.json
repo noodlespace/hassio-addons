@@ -1,0 +1,31 @@
+{
+    "name": "NoodleSpace",
+    "version": "1",
+    "slug": "noodlespace",
+    "description": "NoodleSpace config backup, DNS and cloud monitor",
+    "startup": "before",
+    "boot": "auto",
+
+    "map": ["config"],
+    "host_network": true,
+    "hassio_api": true,
+    "homeassistant_api": true,
+
+    "options": {
+        "logins": [{
+            "username": null,
+            "password": null,
+            "dnsname": null
+        }]
+    },
+    "schema": {
+        "logins": [{
+            "username": "str",
+            "password": "str",
+            "dnsname": "str"
+        }]
+    },
+    "ports": {
+        "8000/tcp": 8000
+    }
+}
