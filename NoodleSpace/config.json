@@ -1,10 +1,12 @@
 {
     "name": "NoodleSpace",
-    "version": "1",
+    "version": "0.0.1",
     "slug": "noodlespace",
     "description": "NoodleSpace config backup, DNS and cloud monitor",
     "startup": "before",
     "boot": "auto",
+    
+    "image": "noodlespace/{arch}-noodlespace",
 
     "map": ["config"],
     "host_network": true,
