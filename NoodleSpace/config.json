@@ -1,6 +1,6 @@
 {
     "name": "NoodleSpace",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "slug": "noodlespace",
     "description": "NoodleSpace config backup, DNS and cloud monitor",
     "startup": "before",
