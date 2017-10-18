@@ -1,8 +1,8 @@
 {
-    "name": "NoodleSpace",
+    "name": "AirHome",
     "version": "0.0.2",
     "slug": "noodlespace",
-    "description": "NoodleSpace config backup, DNS and cloud monitor",
+    "description": "AirHome config backup, DNS and cloud monitor, powered By NoodleSpace.io",
     "startup": "before",
     "boot": "auto",
     
