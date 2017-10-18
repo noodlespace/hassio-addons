@@ -6,7 +6,7 @@
     "startup": "before",
     "boot": "auto",
     
-    "image": "noodlespace/{arch}-noodlespace",
+    "image": "noodlespace/{arch}-hassio-noodlespace",
 
     "map": ["config"],
     "host_network": true,
